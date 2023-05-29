@@ -13,7 +13,7 @@ public class HelloController {
 	return "Hello"+x;
 }
 
-@GetMapping(value="/print/{name}")
+@GetMapping(value="/printx/{name}")
 public String getEmployee(@PathVariable("name") String x)
 {
 return "Employee is "+x;
